@@ -1,0 +1,50 @@
+{
+  "name": "fivem",
+  "displayName": "Fivem",
+  "description": "Fivem GTA5",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "publisher": "FivemGTA5",
+  "icon": "logo.png",
+  "galleryBanner": {
+    "color": "#030518",
+    "theme": "dark"
+  },
+  "keywords": [
+    "fivem",
+    "lua"
+  ],
+  "repository": {
+    "url": "https://github.com/Kingadvent/fivem-snippets"
+  },
+  "homepage": "https://github.com/Kingadvent/fivem-snippets",
+  "bugs": {
+    "url": "https://github.com/Kingadvent/fivem-snippets/issues"
+  },
+  
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "lua",
+        "path": "./snippets/lua"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/html"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/css"
+      }
+    ]
+  }
+}
